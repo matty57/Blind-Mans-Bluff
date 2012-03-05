@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F88F11B150531D200590E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11A150531D200590E27 /* UIKit.framework */; };
+		0F88F11D150531D200590E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11C150531D200590E27 /* Foundation.framework */; };
+		0F88F11F150531D200590E27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11E150531D200590E27 /* CoreGraphics.framework */; };
+		0F88F125150531D200590E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F123150531D200590E27 /* InfoPlist.strings */; };
+		0F88F127150531D200590E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F126150531D200590E27 /* main.m */; };
+		0F88F12B150531D200590E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F12A150531D200590E27 /* AppDelegate.m */; };
+		0F88F12E150531D200590E27 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F12C150531D200590E27 /* MainStoryboard_iPhone.storyboard */; };
+		0F88F131150531D200590E27 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F12F150531D200590E27 /* MainStoryboard_iPad.storyboard */; };
+		0F88F134150531D200590E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F133150531D200590E27 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F88F116150531D200590E27 /* blind mans bluff3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blind mans bluff3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F88F11A150531D200590E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F88F11C150531D200590E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F88F11E150531D200590E27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F88F122150531D200590E27 /* blind mans bluff3-Info.plist */ = {isa = PBXFileReference; path = "blind mans bluff3-Info.plist"; sourceTree = "<group>"; };
+		0F88F124150531D200590E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F88F126150531D200590E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F88F128150531D200590E27 /* blind mans bluff3-Prefix.pch */ = {isa = PBXFileReference; path = "blind mans bluff3-Prefix.pch"; sourceTree = "<group>"; };
+		0F88F129150531D200590E27 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F88F12A150531D200590E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F88F12D150531D200590E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0F88F130150531D200590E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0F88F132150531D200590E27 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0F88F133150531D200590E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F88F113150531D200590E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88F11B150531D200590E27 /* UIKit.framework in Frameworks */,
+				0F88F11D150531D200590E27 /* Foundation.framework in Frameworks */,
+				0F88F11F150531D200590E27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F88F10B150531D200590E27 = {
+			isa = PBXGroup;
+			children = (
+				0F88F120150531D200590E27 /* blind mans bluff3 */,
+				0F88F119150531D200590E27 /* Frameworks */,
+				0F88F117150531D200590E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F88F117150531D200590E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F88F116150531D200590E27 /* blind mans bluff3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F88F119150531D200590E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F88F11A150531D200590E27 /* UIKit.framework */,
+				0F88F11C150531D200590E27 /* Foundation.framework */,
+				0F88F11E150531D200590E27 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F88F120150531D200590E27 /* blind mans bluff3 */ = {
+			isa = PBXGroup;
+			children = (
+				0F88F129150531D200590E27 /* AppDelegate.h */,
+				0F88F12A150531D200590E27 /* AppDelegate.m */,
+				0F88F12C150531D200590E27 /* MainStoryboard_iPhone.storyboard */,
+				0F88F12F150531D200590E27 /* MainStoryboard_iPad.storyboard */,
+				0F88F132150531D200590E27 /* ViewController.h */,
+				0F88F133150531D200590E27 /* ViewController.m */,
+				0F88F121150531D200590E27 /* Supporting Files */,
+			);
+			path = "blind mans bluff3";
+			sourceTree = "<group>";
+		};
+		0F88F121150531D200590E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F88F122150531D200590E27 /* blind mans bluff3-Info.plist */,
+				0F88F123150531D200590E27 /* InfoPlist.strings */,
+				0F88F126150531D200590E27 /* main.m */,
+				0F88F128150531D200590E27 /* blind mans bluff3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F88F115150531D200590E27 /* blind mans bluff3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88F137150531D200590E27 /* Build configuration list for PBXNativeTarget "blind mans bluff3" */;
+			buildPhases = (
+				0F88F112150531D200590E27 /* Sources */,
+				0F88F113150531D200590E27 /* Frameworks */,
+				0F88F114150531D200590E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blind mans bluff3";
+			productName = "blind mans bluff3";
+			productReference = 0F88F116150531D200590E27 /* blind mans bluff3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F88F10D150531D200590E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F88F110150531D200590E27 /* Build configuration list for PBXProject "blind mans bluff3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F88F10B150531D200590E27;
+			productRefGroup = 0F88F117150531D200590E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F88F115150531D200590E27 /* blind mans bluff3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F88F114150531D200590E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88F125150531D200590E27 /* InfoPlist.strings in Resources */,
+				0F88F12E150531D200590E27 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0F88F131150531D200590E27 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F88F112150531D200590E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88F127150531D200590E27 /* main.m in Sources */,
+				0F88F12B150531D200590E27 /* AppDelegate.m in Sources */,
+				0F88F134150531D200590E27 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F88F123150531D200590E27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F88F124150531D200590E27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F88F12C150531D200590E27 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F88F12D150531D200590E27 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0F88F12F150531D200590E27 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F88F130150531D200590E27 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F88F135150531D200590E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F88F136150531D200590E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F88F138150531D200590E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blind mans bluff3/blind mans bluff3-Prefix.pch";
+				INFOPLIST_FILE = "blind mans bluff3/blind mans bluff3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F88F139150531D200590E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blind mans bluff3/blind mans bluff3-Prefix.pch";
+				INFOPLIST_FILE = "blind mans bluff3/blind mans bluff3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F88F110150531D200590E27 /* Build configuration list for PBXProject "blind mans bluff3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88F135150531D200590E27 /* Debug */,
+				0F88F136150531D200590E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F88F137150531D200590E27 /* Build configuration list for PBXNativeTarget "blind mans bluff3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88F138150531D200590E27 /* Debug */,
+				0F88F139150531D200590E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F88F10D150531D200590E27 /* Project object */;
+}
