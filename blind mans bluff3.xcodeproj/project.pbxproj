@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1FED34150554B00073510E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FED33150554B00073510E /* Card.m */; };
 		0F88F11B150531D200590E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11A150531D200590E27 /* UIKit.framework */; };
 		0F88F11D150531D200590E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11C150531D200590E27 /* Foundation.framework */; };
 		0F88F11F150531D200590E27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11E150531D200590E27 /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1FED32150554B00073510E /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		0F1FED33150554B00073510E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		0F88F116150531D200590E27 /* blind mans bluff3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blind mans bluff3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F88F11A150531D200590E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F88F11C150531D200590E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 				0F88F132150531D200590E27 /* ViewController.h */,
 				0F88F133150531D200590E27 /* ViewController.m */,
 				0F88F121150531D200590E27 /* Supporting Files */,
+				0F1FED32150554B00073510E /* Card.h */,
+				0F1FED33150554B00073510E /* Card.m */,
 			);
 			path = "blind mans bluff3";
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				0F88F127150531D200590E27 /* main.m in Sources */,
 				0F88F12B150531D200590E27 /* AppDelegate.m in Sources */,
 				0F88F134150531D200590E27 /* ViewController.m in Sources */,
+				0F1FED34150554B00073510E /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				0F88F139150531D200590E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
