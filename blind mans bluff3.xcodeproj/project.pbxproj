@@ -16,6 +16,8 @@
 		0F88F12E150531D200590E27 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F12C150531D200590E27 /* MainStoryboard_iPhone.storyboard */; };
 		0F88F131150531D200590E27 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F12F150531D200590E27 /* MainStoryboard_iPad.storyboard */; };
 		0F88F134150531D200590E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F133150531D200590E27 /* ViewController.m */; };
+		0FA110E21520C92C00D132B0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E11520C92C00D132B0 /* Card.m */; };
+		0FA110E61520D13500D132B0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E51520D13500D132B0 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		0F88F130150531D200590E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		0F88F132150531D200590E27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F88F133150531D200590E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FA110E01520C92C00D132B0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		0FA110E11520C92C00D132B0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		0FA110E41520D13500D132B0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		0FA110E51520D13500D132B0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,10 @@
 		0F88F10B150531D200590E27 = {
 			isa = PBXGroup;
 			children = (
+				0FA110E41520D13500D132B0 /* Deck.h */,
+				0FA110E51520D13500D132B0 /* Deck.m */,
+				0FA110E01520C92C00D132B0 /* Card.h */,
+				0FA110E11520C92C00D132B0 /* Card.m */,
 				0F88F120150531D200590E27 /* blind mans bluff3 */,
 				0F88F119150531D200590E27 /* Frameworks */,
 				0F88F117150531D200590E27 /* Products */,
@@ -167,6 +177,8 @@
 				0F88F127150531D200590E27 /* main.m in Sources */,
 				0F88F12B150531D200590E27 /* AppDelegate.m in Sources */,
 				0F88F134150531D200590E27 /* ViewController.m in Sources */,
+				0FA110E21520C92C00D132B0 /* Card.m in Sources */,
+				0FA110E61520D13500D132B0 /* Deck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				0F88F139150531D200590E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
