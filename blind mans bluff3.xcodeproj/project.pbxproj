@@ -10,11 +10,12 @@
 		0F280B67152612C700299FEC /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F280B66152612C700299FEC /* RulesViewController.m */; };
 		0F280B6B1526131700299FEC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F280B6A1526131700299FEC /* SettingsViewController.m */; };
 		0F280B6E1526134600299FEC /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F280B6D1526134600299FEC /* StartViewController.m */; };
+		0F280B721526384100299FEC /* 1333127990_purplespace_388886.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F280B711526384100299FEC /* 1333127990_purplespace_388886.jpg */; };
 		0F2A37E715220ADD008AF2F8 /* stars cartoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37E615220ADD008AF2F8 /* stars cartoon.jpg */; };
 		0F2A37EA152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37E9152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg */; };
 		0F2A37EC15221771008AF2F8 /* star_blue_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37EB15221771008AF2F8 /* star_blue_256.png */; };
 		0F2A37F015221E94008AF2F8 /* buttoncolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37EF15221E94008AF2F8 /* buttoncolor.png */; };
-		0F2A37F215222644008AF2F8 /* awesomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37F115222644008AF2F8 /* awesomeButton.png */; };
+		0F5148081526393300E94141 /* awesomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5148071526393300E94141 /* awesomeButton.png */; };
 		0F88F11B150531D200590E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11A150531D200590E27 /* UIKit.framework */; };
 		0F88F11D150531D200590E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11C150531D200590E27 /* Foundation.framework */; };
 		0F88F11F150531D200590E27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F11E150531D200590E27 /* CoreGraphics.framework */; };
@@ -35,11 +36,12 @@
 		0F280B6A1526131700299FEC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
 		0F280B6C1526134600299FEC /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = ../StartViewController.h; sourceTree = "<group>"; };
 		0F280B6D1526134600299FEC /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = ../StartViewController.m; sourceTree = "<group>"; };
+		0F280B711526384100299FEC /* 1333127990_purplespace_388886.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1333127990_purplespace_388886.jpg; sourceTree = "<group>"; };
 		0F2A37E615220ADD008AF2F8 /* stars cartoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stars cartoon.jpg"; sourceTree = "<group>"; };
 		0F2A37E9152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Space-Background2_DXGFX-stock2538.jpg"; sourceTree = "<group>"; };
 		0F2A37EB15221771008AF2F8 /* star_blue_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_blue_256.png; sourceTree = "<group>"; };
 		0F2A37EF15221E94008AF2F8 /* buttoncolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttoncolor.png; sourceTree = "<group>"; };
-		0F2A37F115222644008AF2F8 /* awesomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeButton.png; sourceTree = "<group>"; };
+		0F5148071526393300E94141 /* awesomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeButton.png; sourceTree = "<group>"; };
 		0F88F116150531D200590E27 /* blind mans bluff3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blind mans bluff3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F88F11A150531D200590E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F88F11C150531D200590E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,7 +79,8 @@
 		0F88F10B150531D200590E27 = {
 			isa = PBXGroup;
 			children = (
-				0F2A37F115222644008AF2F8 /* awesomeButton.png */,
+				0F5148071526393300E94141 /* awesomeButton.png */,
+				0F280B711526384100299FEC /* 1333127990_purplespace_388886.jpg */,
 				0F2A37EF15221E94008AF2F8 /* buttoncolor.png */,
 				0F2A37EB15221771008AF2F8 /* star_blue_256.png */,
 				0F2A37E9152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg */,
@@ -198,7 +201,8 @@
 				0F2A37EA152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg in Resources */,
 				0F2A37EC15221771008AF2F8 /* star_blue_256.png in Resources */,
 				0F2A37F015221E94008AF2F8 /* buttoncolor.png in Resources */,
-				0F2A37F215222644008AF2F8 /* awesomeButton.png in Resources */,
+				0F280B721526384100299FEC /* 1333127990_purplespace_388886.jpg in Resources */,
+				0F5148081526393300E94141 /* awesomeButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

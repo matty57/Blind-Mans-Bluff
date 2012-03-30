@@ -15,9 +15,10 @@
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Space-Background2_DXGFX-stock2538.jpg" id="VeN-Na-RRi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="1333127990_purplespace_388886.jpg" id="VeN-Iu-chH">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8ah-3z-Tav">
                                 <rect key="frame" x="305" y="433" width="387" height="295"/>
@@ -61,7 +62,7 @@
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="42"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.5563290225924109" green="0.19052275456859985" blue="0.88376913265306123" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.21120383919999999" green="0.76050302930000002" blue="0.53945091860000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="0.0" height="3"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="w1J-8j-6XA">
@@ -70,7 +71,7 @@
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="42"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.21120383919999999" green="0.76050302930000002" blue="0.53945091860000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="0.0" height="3"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rules" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="w4B-sN-6eZ">
@@ -79,7 +80,7 @@
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="42"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.21120383919999999" green="0.76050302930000002" blue="0.53945091860000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="0.0" height="3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NQT-Ef-2mp">
@@ -94,7 +95,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7t1-9U-mq8" kind="modal" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="xkQ-IM-tIw"/>
+                                    <segue destination="7t1-9U-mq8" kind="modal" modalPresentationStyle="currentContext" modalTransitionStyle="flipHorizontal" id="xkQ-IM-tIw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IWG-bq-I6x">
@@ -109,7 +110,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="my6-Yo-Yi6" kind="modal" id="Heb-GF-gLP"/>
+                                    <segue destination="my6-Yo-Yi6" kind="modal" modalTransitionStyle="flipHorizontal" id="Heb-GF-gLP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LVl-7N-B6v">
@@ -124,11 +125,38 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uq4-w2-mXU" kind="modal" id="qhg-dB-5TV"/>
+                                    <segue destination="uq4-w2-mXU" kind="modal" modalTransitionStyle="flipHorizontal" id="qhg-dB-5TV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Blind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Tdh-DT-sQn">
+                                <rect key="frame" x="392" y="72" width="240" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="98"/>
+                                <color key="textColor" red="0.81395487882653061" green="0.19210310724530152" blue="0.42789868964472005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.40889574426840397" green="0.015258291470634585" blue="0.72393176020408156" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="4" height="-3"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Man's" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ded-U5-r0k">
+                                <rect key="frame" x="383" y="177" width="258" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="98"/>
+                                <color key="textColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.40889574429999997" green="0.015258291469999999" blue="0.72393176020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="4" height="-3"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Bluff" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ZmC-6f-nQs">
+                                <rect key="frame" x="392" y="301" width="240" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="98"/>
+                                <color key="textColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.40889574429999997" green="0.015258291469999999" blue="0.72393176020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="4" height="-3"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -145,23 +173,23 @@
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Space-Background2_DXGFX-stock2538.jpg" id="FuZ-YU-oPD">
+                            <imageView userInteractionEnabled="NO" alpha="0.50000000000000011" contentMode="scaleAspectFill" image="1333127990_purplespace_388886.jpg" id="9lx-8z-99w">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view alpha="0.80000000000000004" contentMode="scaleToFill" id="IyO-z9-GOr">
+                            <view contentMode="scaleToFill" id="IyO-z9-GOr">
                                 <rect key="frame" x="109" y="147" width="807" height="507"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xHy-iB-68W">
+                                    <scrollView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xHy-iB-68W">
                                         <rect key="frame" x="0.0" y="0.0" width="807" height="507"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999999999999996" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="buF-iq-w5F">
+                                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="buF-iq-w5F">
                                                 <rect key="frame" x="0.0" y="0.0" width="807" height="507"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <mutableString key="text">Blind Man's Bluff Rules
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <string key="text">Blind Man's Bluff Rules
 
 Blind Man’s bluff is a challenging variation of Texas Hold'em that is sure to exercise the mind and add spice to any home game. It is played with nearly the same rules as Texas Hold'em except for one major difference: you get to see your opponents’ cards, but not your own.
 
@@ -205,43 +233,47 @@ One more community card (the River card) is dealt face up next to the turn. This
 
 Showdown
 
-Any players remaining after the final betting round can now look at their own cards. Using any combination of their hole cards and community cards, the players arrange their cards to create the best possible five card poker hand. The player with the best hand wins the pot.</mutableString>
+Any players remaining after the final betting round can now look at their own cards. Using any combination of their hole cards and community cards, the players arrange their cards to create the best possible five card poker hand. The player with the best hand wins the pot.</string>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </scrollView>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rules:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="s2W-Hc-PbZ">
                                 <rect key="frame" x="109" y="20" width="240" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="86"/>
-                                <color key="textColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.21120383917407456" green="0.76050302933673475" blue="0.53945091858843242" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="shadowColor" red="0.21120383919999999" green="0.76050302930000002" blue="0.53945091860000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="shadowOffset" width="0.0" height="-2"/>
+                                <color key="shadowColor" red="0.40889574429999997" green="0.015258291469999999" blue="0.72393176020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="-3"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="ijZ-ZP-tNo">
                                 <rect key="frame" x="0.0" y="704" width="1024" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Back!" id="gnr-oE-jry">
-                                        <color key="tintColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="2" kind="modal" id="Pgc-g3-A0I"/>
+                                            <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="Pgc-g3-A0I"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="HVq-I8-oO4"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="rulesScrollView" destination="xHy-iB-68W" id="DnT-j5-B0Q"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1006" y="-1274"/>
@@ -255,15 +287,15 @@ Any players remaining after the final betting round can now look at their own ca
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Space-Background2_DXGFX-stock2538.jpg" id="RfG-fz-W2q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="1333127990_purplespace_388886.jpg" id="shz-LC-hnA">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="xLV-KQ-CfY">
                                 <rect key="frame" x="359" y="44" width="306" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <color key="textColor" red="0.41336774999999998" green="1" blue="0.69167790119999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="1rD-Q8-ToM">
@@ -271,9 +303,9 @@ Any players remaining after the final betting round can now look at their own ca
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Back!" id="aBd-J8-J0c">
-                                        <color key="tintColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="2" kind="modal" id="353-5t-gqZ"/>
+                                            <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="353-5t-gqZ"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -297,15 +329,15 @@ Any players remaining after the final betting round can now look at their own ca
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Space-Background2_DXGFX-stock2538.jpg" id="cnF-i5-SyA">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="1333127990_purplespace_388886.jpg" id="Mcg-GN-LNj">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="754"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Start" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="ces-cd-aNv">
                                 <rect key="frame" x="368" y="81" width="288" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <color key="textColor" red="0.41336774999999998" green="1" blue="0.69167790119999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="35A-up-rRG">
@@ -313,9 +345,9 @@ Any players remaining after the final betting round can now look at their own ca
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Back!" id="ygm-9z-crC">
-                                        <color key="tintColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="2" kind="modal" id="fzg-e8-rWy"/>
+                                            <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="fzg-e8-rWy"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -332,12 +364,15 @@ Any players remaining after the final betting round can now look at their own ca
         </scene>
     </scenes>
     <resources>
-        <image name="Space-Background2_DXGFX-stock2538.jpg" width="1024" height="768"/>
+        <image name="1333127990_purplespace_388886.jpg" width="1920" height="1200"/>
         <image name="awesomeButton.png" width="387" height="295"/>
     </resources>
     <classes>
         <class className="RulesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RulesViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="rulesScrollView" candidateClass="UIScrollView"/>
+            </relationships>
         </class>
         <class className="SettingsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
@@ -355,6 +390,6 @@ Any players remaining after the final betting round can now look at their own ca
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Pgc-g3-A0I"/>
+        <segue reference="fzg-e8-rWy"/>
     </inferredMetricsTieBreakers>
 </document>

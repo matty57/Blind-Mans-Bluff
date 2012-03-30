@@ -13,6 +13,7 @@
 @end
 
 @implementation RulesViewController
+@synthesize rulesScrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,12 +26,14 @@
 
 - (void)viewDidLoad
 {
+    rulesScrollView.BackgroundColor = [UIColor clearColor];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidUnload
 {
+    [self setRulesScrollView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

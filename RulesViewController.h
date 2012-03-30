@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RulesViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *rulesScrollView;
 
 @end
