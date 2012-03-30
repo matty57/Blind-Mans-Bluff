@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
         <scene sceneID="4">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -80,6 +82,51 @@
                                 <color key="shadowColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="0.0" height="3"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NQT-Ef-2mp">
+                                <rect key="frame" x="740" y="84" width="252" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7t1-9U-mq8" kind="modal" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="xkQ-IM-tIw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IWG-bq-I6x">
+                                <rect key="frame" x="429" y="498" width="177" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="my6-Yo-Yi6" kind="modal" id="Heb-GF-gLP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LVl-7N-B6v">
+                                <rect key="frame" x="81" y="102" width="191" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uq4-w2-mXU" kind="modal" id="qhg-dB-5TV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -89,10 +136,11 @@
             </objects>
             <point key="canvasLocation" x="-289" y="-306"/>
         </scene>
+        <!--Rules View Controller-->
         <scene sceneID="jPD-KP-bj8">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pp7-2q-8Sh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="uq4-w2-mXU" sceneMemberID="viewController">
+                <viewController id="uq4-w2-mXU" customClass="RulesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hwh-F2-OEY">
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -101,19 +149,108 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" id="IyO-z9-GOr">
+                                <rect key="frame" x="109" y="147" width="807" height="507"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xHy-iB-68W">
+                                        <rect key="frame" x="0.0" y="0.0" width="807" height="507"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999999999999996" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="buF-iq-w5F">
+                                                <rect key="frame" x="0.0" y="0.0" width="807" height="507"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <mutableString key="text">Blind Man's Bluff Rules
+
+Blind Man’s bluff is a challenging variation of Texas Hold'em that is sure to exercise the mind and add spice to any home game. It is played with nearly the same rules as Texas Hold'em except for one major difference: you get to see your opponents’ cards, but not your own.
+
+In Blind Man’s Bluff, your hole cards will be dealt face down to you, but you can’t look at them. Instead, you put your cards on your forehead, facing outwards so that everyone except you can see them.
+
+Although you can’t see your own cards, you’ll still be able to see everyone else’s hole cards. As the game progresses, you’ll try to judge the strength of your hand by the actions your opponents take. It sounds almost impossible to play but there is a major element of skill involved. Everyone is on a level playing field and those with the most skill will win.
+
+Game Play
+
+Other than that one major difference, the rules for Blind Man’s Bluff are the same as for Texas Hold'em. Each game begins with the blinds and then proceeds through four betting rounds and a final showdown.
+
+Blinds and Dealer
+
+At the beginning of each hand, the two players to the left of the dealer pay the blinds. These are small, forced bets that serve the same function as antes in other poker games: to start each pot with money in the middle.
+
+The player closest to the dealer pays the small blind and the next player over pays the big blind. The big blind is equal to one small bet and the small blind is half that. In a game with $4/$8 betting levels, the blinds would be $2 and $4.
+
+In order for each player to have a turn at paying the blinds, the role of the dealer moves one seat to the left at the beginning of each hand. If there is a full time dealer, a small disc called the “dealer’s button” can be used to represent the position of the dealer at the table.
+
+Preflop
+
+After the blinds have been paid, each player is dealt two cards face down. The players may not look at their own cards. Instead, each player is to place these cards on his or her forehead so that the other players can see the cards.
+
+Next, there is a round of betting that begins with the player to the left of the big blind. Each player must either call the minimum bet, fold, or raise. If there is a raise, the other players at the table must at least match that bet or fold.
+
+Flop
+
+Three cards are dealt face up in the middle of the table. These are the first of what will be five community cards. These cards can be used by the players at the table in any combination with their hole cards to create the best possible five card poker hand.
+
+This is followed by another round of betting that begins with the first player to the left of the dealer. This player can check, bet, or fold and then the betting action continues clockwise around the table.
+
+Remember – there’s still no peeking at your own cards.
+
+Turn
+
+Another community card (the Turn card) is dealt face up next to the flop. This is followed by another round of betting that begins with the first player to the left of the dealer. If you are playing fixed limit stakes, the bets would now increase to the upper betting limit.
+
+River
+
+One more community card (the River card) is dealt face up next to the turn. This is followed by one more round of betting just like the previous round.
+
+Showdown
+
+Any players remaining after the final betting round can now look at their own cards. Using any combination of their hole cards and community cards, the players arrange their cards to create the best possible five card poker hand. The player with the best hand wins the pot.</mutableString>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rules:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="s2W-Hc-PbZ">
+                                <rect key="frame" x="109" y="20" width="240" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="86"/>
+                                <color key="textColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.21120383917407456" green="0.76050302933673475" blue="0.53945091858843242" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.21120383919999999" green="0.76050302930000002" blue="0.53945091860000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-2"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="ijZ-ZP-tNo">
+                                <rect key="frame" x="0.0" y="704" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back!" id="gnr-oE-jry">
+                                        <color key="tintColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="Pgc-g3-A0I"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <navigationItem key="navigationItem" id="HVq-I8-oO4"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1006" y="-1274"/>
         </scene>
+        <!--Settings View Controller-->
         <scene sceneID="Mof-5l-4R2">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IG8-qf-mq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="7t1-9U-mq8" sceneMemberID="viewController">
+                <viewController id="7t1-9U-mq8" customClass="SettingsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5qY-sc-BKz">
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -122,35 +259,76 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="xLV-KQ-CfY">
+                                <rect key="frame" x="359" y="44" width="306" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.41336774999999998" green="1" blue="0.69167790119999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="1rD-Q8-ToM">
+                                <rect key="frame" x="0.0" y="704" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back!" id="aBd-J8-J0c">
+                                        <color key="tintColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="353-5t-gqZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GxQ-cN-RbJ"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1006" y="-306"/>
         </scene>
+        <!--Start View Controller-->
         <scene sceneID="Vwo-vX-jBN">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kJ-OI-mDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="my6-Yo-Yi6" sceneMemberID="viewController">
+                <viewController id="my6-Yo-Yi6" customClass="StartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xed-FG-kxv">
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="cnF-i5-SyA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Space-Background2_DXGFX-stock2538.jpg" id="cnF-i5-SyA">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Start" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="ces-cd-aNv">
+                                <rect key="frame" x="368" y="81" width="288" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <color key="textColor" red="0.41336774999999998" green="1" blue="0.69167790119999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="35A-up-rRG">
+                                <rect key="frame" x="0.0" y="704" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back!" id="ygm-9z-crC">
+                                        <color key="tintColor" red="0.55632902259999994" green="0.19052275460000001" blue="0.88376913270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="fzg-e8-rWy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zwm-0q-WjV"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1006" y="643"/>
+            <point key="canvasLocation" x="1006" y="544"/>
         </scene>
     </scenes>
     <resources>
@@ -158,13 +336,25 @@
         <image name="awesomeButton.png" width="387" height="295"/>
     </resources>
     <classes>
+        <class className="RulesViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RulesViewController.h"/>
+        </class>
+        <class className="SettingsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
+        </class>
+        <class className="StartViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StartViewController.h"/>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
-        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Pgc-g3-A0I"/>
+    </inferredMetricsTieBreakers>
 </document>

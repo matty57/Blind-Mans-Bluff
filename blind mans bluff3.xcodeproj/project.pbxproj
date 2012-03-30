@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F280B67152612C700299FEC /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F280B66152612C700299FEC /* RulesViewController.m */; };
+		0F280B6B1526131700299FEC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F280B6A1526131700299FEC /* SettingsViewController.m */; };
+		0F280B6E1526134600299FEC /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F280B6D1526134600299FEC /* StartViewController.m */; };
 		0F2A37E715220ADD008AF2F8 /* stars cartoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37E615220ADD008AF2F8 /* stars cartoon.jpg */; };
 		0F2A37EA152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37E9152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg */; };
 		0F2A37EC15221771008AF2F8 /* star_blue_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A37EB15221771008AF2F8 /* star_blue_256.png */; };
@@ -26,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F280B65152612C700299FEC /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulesViewController.h; path = ../RulesViewController.h; sourceTree = "<group>"; };
+		0F280B66152612C700299FEC /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesViewController.m; path = ../RulesViewController.m; sourceTree = "<group>"; };
+		0F280B691526131700299FEC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		0F280B6A1526131700299FEC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		0F280B6C1526134600299FEC /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = ../StartViewController.h; sourceTree = "<group>"; };
+		0F280B6D1526134600299FEC /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = ../StartViewController.m; sourceTree = "<group>"; };
 		0F2A37E615220ADD008AF2F8 /* stars cartoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stars cartoon.jpg"; sourceTree = "<group>"; };
 		0F2A37E9152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Space-Background2_DXGFX-stock2538.jpg"; sourceTree = "<group>"; };
 		0F2A37EB15221771008AF2F8 /* star_blue_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_blue_256.png; sourceTree = "<group>"; };
@@ -45,10 +54,10 @@
 		0F88F130150531D200590E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		0F88F132150531D200590E27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F88F133150531D200590E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0FA110E01520C92C00D132B0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		0FA110E11520C92C00D132B0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		0FA110E41520D13500D132B0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
-		0FA110E51520D13500D132B0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		0FA110E01520C92C00D132B0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		0FA110E11520C92C00D132B0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		0FA110E41520D13500D132B0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = ../Deck.h; sourceTree = "<group>"; };
+		0FA110E51520D13500D132B0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = ../Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +82,6 @@
 				0F2A37EB15221771008AF2F8 /* star_blue_256.png */,
 				0F2A37E9152212F2008AF2F8 /* Space-Background2_DXGFX-stock2538.jpg */,
 				0F2A37E615220ADD008AF2F8 /* stars cartoon.jpg */,
-				0FA110E41520D13500D132B0 /* Deck.h */,
-				0FA110E51520D13500D132B0 /* Deck.m */,
-				0FA110E01520C92C00D132B0 /* Card.h */,
-				0FA110E11520C92C00D132B0 /* Card.m */,
 				0F88F120150531D200590E27 /* blind mans bluff3 */,
 				0F88F119150531D200590E27 /* Frameworks */,
 				0F88F117150531D200590E27 /* Products */,
@@ -104,12 +109,22 @@
 		0F88F120150531D200590E27 /* blind mans bluff3 */ = {
 			isa = PBXGroup;
 			children = (
+				0FA110E41520D13500D132B0 /* Deck.h */,
+				0FA110E51520D13500D132B0 /* Deck.m */,
+				0FA110E01520C92C00D132B0 /* Card.h */,
+				0FA110E11520C92C00D132B0 /* Card.m */,
 				0F88F129150531D200590E27 /* AppDelegate.h */,
 				0F88F12A150531D200590E27 /* AppDelegate.m */,
 				0F88F12C150531D200590E27 /* MainStoryboard_iPhone.storyboard */,
 				0F88F12F150531D200590E27 /* MainStoryboard_iPad.storyboard */,
 				0F88F132150531D200590E27 /* ViewController.h */,
 				0F88F133150531D200590E27 /* ViewController.m */,
+				0F280B6C1526134600299FEC /* StartViewController.h */,
+				0F280B6D1526134600299FEC /* StartViewController.m */,
+				0F280B691526131700299FEC /* SettingsViewController.h */,
+				0F280B6A1526131700299FEC /* SettingsViewController.m */,
+				0F280B65152612C700299FEC /* RulesViewController.h */,
+				0F280B66152612C700299FEC /* RulesViewController.m */,
 				0F88F121150531D200590E27 /* Supporting Files */,
 			);
 			path = "blind mans bluff3";
@@ -199,6 +214,9 @@
 				0F88F134150531D200590E27 /* ViewController.m in Sources */,
 				0FA110E21520C92C00D132B0 /* Card.m in Sources */,
 				0FA110E61520D13500D132B0 /* Deck.m in Sources */,
+				0F280B67152612C700299FEC /* RulesViewController.m in Sources */,
+				0F280B6B1526131700299FEC /* SettingsViewController.m in Sources */,
+				0F280B6E1526134600299FEC /* StartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
