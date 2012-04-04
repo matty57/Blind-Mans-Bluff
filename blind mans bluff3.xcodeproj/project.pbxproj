@@ -27,6 +27,7 @@
 		0F88F134150531D200590E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F133150531D200590E27 /* ViewController.m */; };
 		0FA110E21520C92C00D132B0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E11520C92C00D132B0 /* Card.m */; };
 		0FA110E61520D13500D132B0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E51520D13500D132B0 /* Deck.m */; };
+		0FF202E9152CA83B00AA7154 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF202E8152CA83B00AA7154 /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		0FA110E11520C92C00D132B0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
 		0FA110E41520D13500D132B0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = ../Deck.h; sourceTree = "<group>"; };
 		0FA110E51520D13500D132B0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = ../Deck.m; sourceTree = "<group>"; };
+		0FF202E7152CA83B00AA7154 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../Character.h; sourceTree = "<group>"; };
+		0FF202E8152CA83B00AA7154 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,14 +115,16 @@
 		0F88F120150531D200590E27 /* blind mans bluff3 */ = {
 			isa = PBXGroup;
 			children = (
-				0FA110E41520D13500D132B0 /* Deck.h */,
-				0FA110E51520D13500D132B0 /* Deck.m */,
-				0FA110E01520C92C00D132B0 /* Card.h */,
-				0FA110E11520C92C00D132B0 /* Card.m */,
 				0F88F129150531D200590E27 /* AppDelegate.h */,
 				0F88F12A150531D200590E27 /* AppDelegate.m */,
 				0F88F12C150531D200590E27 /* MainStoryboard_iPhone.storyboard */,
 				0F88F12F150531D200590E27 /* MainStoryboard_iPad.storyboard */,
+				0FF202E7152CA83B00AA7154 /* Character.h */,
+				0FF202E8152CA83B00AA7154 /* Character.m */,
+				0FA110E41520D13500D132B0 /* Deck.h */,
+				0FA110E51520D13500D132B0 /* Deck.m */,
+				0FA110E01520C92C00D132B0 /* Card.h */,
+				0FA110E11520C92C00D132B0 /* Card.m */,
 				0F88F132150531D200590E27 /* ViewController.h */,
 				0F88F133150531D200590E27 /* ViewController.m */,
 				0F280B6C1526134600299FEC /* StartViewController.h */,
@@ -221,6 +226,7 @@
 				0F280B67152612C700299FEC /* RulesViewController.m in Sources */,
 				0F280B6B1526131700299FEC /* SettingsViewController.m in Sources */,
 				0F280B6E1526134600299FEC /* StartViewController.m in Sources */,
+				0FF202E9152CA83B00AA7154 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
