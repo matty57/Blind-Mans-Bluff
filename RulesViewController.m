@@ -14,6 +14,8 @@
 
 @implementation RulesViewController
 @synthesize rulesScrollView;
+@synthesize mainSong;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,7 +27,17 @@
 }
 
 - (void)viewDidLoad
+
 {
+    if(!mainSong)
+    {
+        NSURL * songLocation = [[NSBundle mainBundle]
+                                URLForResource:@"rules123"
+                                withExtension:@"mp3"];
+        mainSong = [[AVAudioPlayer alloc] initWithContentsOfURL:songLocation error:nil];
+    }
+    
+    
     rulesScrollView.BackgroundColor = [UIColor clearColor];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
@@ -43,4 +55,9 @@
     return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;
 }
 
+- (IBAction)PlayRules:(id)sender {
+   
+    [mainSong play];
+}
+    
 @end

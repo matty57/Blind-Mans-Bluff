@@ -27,6 +27,8 @@
 		0F88F134150531D200590E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F133150531D200590E27 /* ViewController.m */; };
 		0FA110E21520C92C00D132B0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E11520C92C00D132B0 /* Card.m */; };
 		0FA110E61520D13500D132B0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E51520D13500D132B0 /* Deck.m */; };
+		0FBFC86A153371CD0072853A /* rules123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FBFC869153371CD0072853A /* rules123.mp3 */; };
+		0FBFC871153372710072853A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFC870153372710072853A /* AVFoundation.framework */; };
 		0FF202E9152CA83B00AA7154 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF202E8152CA83B00AA7154 /* Character.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,8 @@
 		0FA110E11520C92C00D132B0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
 		0FA110E41520D13500D132B0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = ../Deck.h; sourceTree = "<group>"; };
 		0FA110E51520D13500D132B0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = ../Deck.m; sourceTree = "<group>"; };
+		0FBFC869153371CD0072853A /* rules123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rules123.mp3; sourceTree = "<group>"; };
+		0FBFC870153372710072853A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0FF202E7152CA83B00AA7154 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../Character.h; sourceTree = "<group>"; };
 		0FF202E8152CA83B00AA7154 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBFC871153372710072853A /* AVFoundation.framework in Frameworks */,
 				0F88F11B150531D200590E27 /* UIKit.framework in Frameworks */,
 				0F88F11D150531D200590E27 /* Foundation.framework in Frameworks */,
 				0F88F11F150531D200590E27 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +87,8 @@
 		0F88F10B150531D200590E27 = {
 			isa = PBXGroup;
 			children = (
+				0FBFC870153372710072853A /* AVFoundation.framework */,
+				0FBFC869153371CD0072853A /* rules123.mp3 */,
 				0F5148071526393300E94141 /* awesomeButton.png */,
 				0F280B711526384100299FEC /* 1333127990_purplespace_388886.jpg */,
 				0F2A37EF15221E94008AF2F8 /* buttoncolor.png */,
@@ -175,7 +182,7 @@
 		0F88F10D150531D200590E27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 0F88F110150531D200590E27 /* Build configuration list for PBXProject "blind mans bluff3" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -208,6 +215,7 @@
 				0F2A37F015221E94008AF2F8 /* buttoncolor.png in Resources */,
 				0F280B721526384100299FEC /* 1333127990_purplespace_388886.jpg in Resources */,
 				0F5148081526393300E94141 /* awesomeButton.png in Resources */,
+				0FBFC86A153371CD0072853A /* rules123.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

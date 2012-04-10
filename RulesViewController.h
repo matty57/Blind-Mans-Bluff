@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface RulesViewController : UIViewController
+
+@property (strong, nonatomic) AVAudioPlayer * mainSong;
 @property (strong, nonatomic) IBOutlet UIScrollView *rulesScrollView;
+- (IBAction)PlayRules:(id)sender;
 
 @end

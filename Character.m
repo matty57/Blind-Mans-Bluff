@@ -9,5 +9,19 @@
 #import "Character.h"
 
 @implementation Character
+@synthesize name;
+@synthesize chips;
 
+
+-(int)requestBetWithMinimum:(int) minimumBet {
+    return YES;
+}
+
+-(BOOL)anteUpWithAmount:(int) anteAmount {
+    return YES;
+}
+
+-(void)awardChips:(int) chipsAmount {
+    
+}
 @end
