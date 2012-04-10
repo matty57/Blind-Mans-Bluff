@@ -56,8 +56,12 @@
 }
 
 - (IBAction)PlayRules:(id)sender {
-   
-    [mainSong play];
+    if ([mainSong isPlaying]){
+        [mainSong stop];
+    } else {
+        [mainSong play];
+    }
+    
 }
     
 @end
