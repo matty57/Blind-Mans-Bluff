@@ -13,6 +13,9 @@
 @end
 
 @implementation StartViewController
+@synthesize numberOfChipsLabel;
+@synthesize playerScoreLabel;
+@synthesize numberOfChips;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,6 +34,8 @@
 
 - (void)viewDidUnload
 {
+    [self setNumberOfChipsLabel:nil];
+    [self setPlayerScoreLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -41,16 +46,52 @@
 }
 
 - (IBAction)betPressed:(id)sender {
-    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]
+                                  initWithTitle:@"How much do you want to Bet?"
+                                  delegate:self
+                                  cancelButtonTitle:@"No Way!"
+                                  destructiveButtonTitle:@"Cancle Bet" 
+                                  otherButtonTitles:@"2 Chips", @"4 Chips", @"8 Chips", @"All In!", nil];
+    [actionSheet showInView:self.view];
 }
 
 - (IBAction)foldPressed:(id)sender {
     UIActionSheet *actionSheet = [[UIActionSheet alloc]
-                                  initWithTitle:@"Are you sure?"
+                                  initWithTitle:@"Are you sure you want to Fold?"
                                   delegate:self
                                   cancelButtonTitle:@"No Way!"
                                   destructiveButtonTitle:@"Yes, I'm Sure!" 
-                                  otherButtonTitles:nil];
+                                  otherButtonTitles:@"Let me think about it.", nil];
     [actionSheet showInView:self.view];
 }
+
+-(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    switch (buttonIndex) {
+        case 0:
+            NSLog(@"Cancle was chosen");
+            break;
+        case 1:
+            numberOfChips += 2;
+            break;
+        case 2:
+            numberOfChips += 4;
+            break;
+        case 3:
+            numberOfChips += 8;
+            break;
+        case 4:
+            numberOfChips += 12;
+            break;
+        default:
+            break;
+    }
+}
+
+
+
+
+
+
+
+
 @end
