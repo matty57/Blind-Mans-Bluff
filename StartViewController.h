@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface StartViewController : UIViewController
+- (IBAction)betPressed:(id)sender;
+- (IBAction)foldPressed:(id)sender;
 
 @end
