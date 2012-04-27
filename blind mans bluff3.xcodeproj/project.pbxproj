@@ -30,6 +30,8 @@
 		0FBFC86A153371CD0072853A /* rules123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FBFC869153371CD0072853A /* rules123.mp3 */; };
 		0FBFC871153372710072853A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFC870153372710072853A /* AVFoundation.framework */; };
 		0FF202E9152CA83B00AA7154 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF202E8152CA83B00AA7154 /* Character.m */; };
+		23860843154063E900429895 /* awesomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 23860842154063E900429895 /* awesomeButton.png */; };
+		2386084615406D9500429895 /* cards copy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2386084515406D9500429895 /* cards copy2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		0FBFC870153372710072853A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0FF202E7152CA83B00AA7154 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../Character.h; sourceTree = "<group>"; };
 		0FF202E8152CA83B00AA7154 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../Character.m; sourceTree = "<group>"; };
+		23860842154063E900429895 /* awesomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeButton.png; sourceTree = "<group>"; };
+		2386084515406D9500429895 /* cards copy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cards copy2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				0F280B6A1526131700299FEC /* SettingsViewController.m */,
 				0F280B65152612C700299FEC /* RulesViewController.h */,
 				0F280B66152612C700299FEC /* RulesViewController.m */,
+				23860842154063E900429895 /* awesomeButton.png */,
+				2386084515406D9500429895 /* cards copy2.jpg */,
 				0F88F121150531D200590E27 /* Supporting Files */,
 			);
 			path = "blind mans bluff3";
@@ -216,6 +222,8 @@
 				0F280B721526384100299FEC /* 1333127990_purplespace_388886.jpg in Resources */,
 				0F5148081526393300E94141 /* awesomeButton.png in Resources */,
 				0FBFC86A153371CD0072853A /* rules123.mp3 in Resources */,
+				23860843154063E900429895 /* awesomeButton.png in Resources */,
+				2386084615406D9500429895 /* cards copy2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

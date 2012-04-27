@@ -40,4 +40,17 @@
     return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;
 }
 
+- (IBAction)betPressed:(id)sender {
+    
+}
+
+- (IBAction)foldPressed:(id)sender {
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]
+                                  initWithTitle:@"Are you sure?"
+                                  delegate:self
+                                  cancelButtonTitle:@"No Way!"
+                                  destructiveButtonTitle:@"Yes, I'm Sure!" 
+                                  otherButtonTitles:nil];
+    [actionSheet showInView:self.view];
+}
 @end
