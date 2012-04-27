@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
@@ -388,11 +387,17 @@ Any players remaining after the final betting round can now look at their own ca
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="onTintColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="musicSwitch:" destination="7t1-9U-mq8" eventType="valueChanged" id="vQd-Wl-XXr"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="cTD-fb-qv2">
                                 <rect key="frame" x="376" y="333" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.69704639670000001" green="0.091207786700000001" blue="0.34929468289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="soundEffectsSwitch:" destination="7t1-9U-mq8" eventType="valueChanged" id="VBx-9N-Je7"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -463,6 +468,10 @@ Any players remaining after the final betting round can now look at their own ca
         </class>
         <class className="SettingsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="musicSwitch:"/>
+                <relationship kind="action" name="soundEffectsSwitch:"/>
+            </relationships>
         </class>
         <class className="StartViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StartViewController.h"/>
@@ -478,7 +487,7 @@ Any players remaining after the final betting round can now look at their own ca
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="qhg-dB-5TV"/>
-        <segue reference="Pgc-g3-A0I"/>
-        <segue reference="qw1-wW-EN8"/>
+        <segue reference="xkQ-IM-tIw"/>
+        <segue reference="fzg-e8-rWy"/>
     </inferredMetricsTieBreakers>
 </document>

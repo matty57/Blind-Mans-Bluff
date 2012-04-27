@@ -29,13 +29,14 @@
 - (void)viewDidLoad
 
 {
-    if(!mainSong)
-    {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         NSURL * songLocation = [[NSBundle mainBundle]
                                 URLForResource:@"rules123"
                                 withExtension:@"mp3"];
         mainSong = [[AVAudioPlayer alloc] initWithContentsOfURL:songLocation error:nil];
-    }
+    });
+
     
     
     rulesScrollView.BackgroundColor = [UIColor clearColor];

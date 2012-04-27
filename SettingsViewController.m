@@ -41,4 +41,11 @@
     return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;
 }
 
+- (IBAction)musicSwitch:(id)sender {
+    
+}
+
+- (IBAction)soundEffectsSwitch:(id)sender {
+    
+}
 @end

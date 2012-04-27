@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 
 @interface SettingsViewController : UIViewController
+- (IBAction)musicSwitch:(id)sender;
+- (IBAction)soundEffectsSwitch:(id)sender;
 
 
 @end
