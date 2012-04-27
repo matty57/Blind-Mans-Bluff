@@ -539,6 +539,50 @@ Any players remaining after the final betting round can now look at their own ca
                                 <rect key="frame" x="104" y="254" width="298" height="390"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <view contentMode="scaleToFill" id="3dl-Y2-IUg">
+                                <rect key="frame" x="373" y="431" width="63" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="njY-Zk-n5e">
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="GVY-e2-xvH">
+                                <rect key="frame" x="344" y="237" width="63" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="8Sl-86-zxF">
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="A3C-Us-9NO">
+                                <rect key="frame" x="624" y="237" width="63" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="dZl-6u-tcn">
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="cb6-hm-OnE">
+                                <rect key="frame" x="616" y="431" width="63" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="clusterFuck1.png" id="M9q-5w-IkI">
+                                        <rect key="frame" x="-5" y="0.0" width="73" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -559,6 +603,7 @@ Any players remaining after the final betting round can now look at their own ca
         <image name="Ballin.png" width="1735" height="2418"/>
         <image name="BallinTits-1.png" width="1735" height="2418"/>
         <image name="awesomeButton.png" width="387" height="295"/>
+        <image name="clusterFuck1.png" width="400" height="400"/>
     </resources>
     <classes>
         <class className="RulesViewController" superclassName="UIViewController">

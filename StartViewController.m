@@ -7,6 +7,7 @@
 //
 
 #import "StartViewController.h"
+#import "Character.h"
 
 @interface StartViewController ()
 
@@ -16,6 +17,7 @@
 @synthesize numberOfChipsLabel;
 @synthesize playerScoreLabel;
 @synthesize numberOfChips;
+@synthesize Zolthar, Magezacks, Kalia, player;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,6 +30,7 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -42,7 +45,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;
+    return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || 
+    interfaceOrientation == UIInterfaceOrientationLandscapeRight;
 }
 
 - (IBAction)betPressed:(id)sender {
@@ -68,7 +72,7 @@
 -(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     switch (buttonIndex) {
         case 0:
-            NSLog(@"Cancle was chosen");
+            NSLog(@"Cancle was chosen.");
             break;
         case 1:
             numberOfChips += 2;
@@ -78,13 +82,15 @@
             break;
         case 3:
             numberOfChips += 8;
-            break;
+            break;                        
         case 4:
             numberOfChips += 12;
             break;
         default:
             break;
     }
+    NSLog(@"Number of Chips = %i", numberOfChips);
+    
 }
 
 
