@@ -37,7 +37,7 @@
 
 - (void)viewDidUnload
 {
-    [self setNumberOfChipsLabel:nil];
+    //[self setNumberOfChipsLabel:nil];
     [self setPlayerScoreLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.

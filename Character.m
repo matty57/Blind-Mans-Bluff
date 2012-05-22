@@ -11,17 +11,34 @@
 @implementation Character
 @synthesize name;
 @synthesize chips;
+@synthesize folded;
+@synthesize ourCard,currentBet;
 
+-(id) initWithCharacterName:(NSString *) characterName
+               andWithChips:(int) characterChips {
+    
+    self.name = characterName;
+    self.chips = characterChips;
+    self.currentBet = 0;
+    
+    return self;
+}
 
 -(int)requestBetWithMinimum:(int) minimumBet {
-    return YES;
+    chips = chips - minimumBet;
+    currentBet += minimumBet;
+    
+    return minimumBet;
 }
 
 -(BOOL)anteUpWithAmount:(int) anteAmount {
-    return YES;
+    chips = chips - anteAmount;
+    currentBet += anteAmount;
+    
+    return anteAmount;
 }
 
 -(void)awardChips:(int) chipsAmount {
-    
+    chips = chips + chipsAmount; 
 }
 @end

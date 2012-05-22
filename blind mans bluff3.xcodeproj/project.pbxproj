@@ -34,6 +34,7 @@
 		0FA110E61520D13500D132B0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA110E51520D13500D132B0 /* Deck.m */; };
 		0FBFC86A153371CD0072853A /* rules123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FBFC869153371CD0072853A /* rules123.mp3 */; };
 		0FBFC871153372710072853A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFC870153372710072853A /* AVFoundation.framework */; };
+		0FE4851D156BEE5E0025A453 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4851C156BEE5E0025A453 /* GameViewController.m */; };
 		0FF202E9152CA83B00AA7154 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF202E8152CA83B00AA7154 /* Character.m */; };
 		23860843154063E900429895 /* awesomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 23860842154063E900429895 /* awesomeButton.png */; };
 		2386084615406D9500429895 /* cards copy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2386084515406D9500429895 /* cards copy2.jpg */; };
@@ -77,6 +78,8 @@
 		0FA110E51520D13500D132B0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = ../Deck.m; sourceTree = "<group>"; };
 		0FBFC869153371CD0072853A /* rules123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rules123.mp3; path = ../rules123.mp3; sourceTree = "<group>"; };
 		0FBFC870153372710072853A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0FE4851B156BEE5E0025A453 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		0FE4851C156BEE5E0025A453 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
 		0FF202E7152CA83B00AA7154 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../Character.h; sourceTree = "<group>"; };
 		0FF202E8152CA83B00AA7154 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../Character.m; sourceTree = "<group>"; };
 		23860842154063E900429895 /* awesomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = awesomeButton.png; path = "blind mans bluff3/awesomeButton.png"; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				0F280B6A1526131700299FEC /* SettingsViewController.m */,
 				0F280B65152612C700299FEC /* RulesViewController.h */,
 				0F280B66152612C700299FEC /* RulesViewController.m */,
+				0FE4851B156BEE5E0025A453 /* GameViewController.h */,
+				0FE4851C156BEE5E0025A453 /* GameViewController.m */,
 				0F88F121150531D200590E27 /* Supporting Files */,
 			);
 			path = "blind mans bluff3";
@@ -263,6 +268,7 @@
 				0F280B6B1526131700299FEC /* SettingsViewController.m in Sources */,
 				0F280B6E1526134600299FEC /* StartViewController.m in Sources */,
 				0FF202E9152CA83B00AA7154 /* Character.m in Sources */,
+				0FE4851D156BEE5E0025A453 /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
