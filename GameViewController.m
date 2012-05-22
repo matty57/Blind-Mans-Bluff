@@ -89,7 +89,7 @@
             }
         } while (![self everyoneHasSameBet]); 
             
-        // determine winner
+        // determine winner sfijgs
         
     }
 }
