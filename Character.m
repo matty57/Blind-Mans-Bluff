@@ -12,7 +12,9 @@
 @synthesize name;
 @synthesize chips;
 @synthesize folded;
-@synthesize ourCard,currentBet;
+
+@synthesize ourCard,
+            currentBet;
 
 -(id) initWithCharacterName:(NSString *) characterName
                andWithChips:(int) characterChips {
@@ -40,5 +42,10 @@
 
 -(void)awardChips:(int) chipsAmount {
     chips = chips + chipsAmount; 
+}
+
+-(void) logThisCharacter {
+    NSLog(@"%@ has %d Chips and the following card", self.name, self.chips);
+    [ourCard logThisCard];
 }
 @end

@@ -28,8 +28,8 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
+    [super viewDidLoad];
     stillPlaying = YES;
     characterArray = [[NSMutableArray alloc]init];
     Character * bob = [[Character alloc]initWithCharacterName:@"BOB" andWithChips:50];
@@ -44,7 +44,8 @@
     ourDeck = [[Deck alloc] initWithFullDeck];
     currentBet = 0;
     currentPlayer = 0;
-    [super viewDidLoad];
+    [self gameController];
+    
 	// Do any additional setup after loading the view.
 }
 
@@ -60,41 +61,64 @@
 }
 -(void)gameController{
     Character * you = [characterArray objectAtIndex:3];
-    while (stillPlaying || you.chips > 0) {
+    
+    while (stillPlaying && you.chips > 0) {
+        [ourDeck shuffle];
         // Ante Up
         for (Character * temp in characterArray) {
             [temp anteUpWithAmount:1];
         }
         currentBet = 1;
         // Deal a card
+        
         for (Character * temp in characterArray){
             [temp setOurCard:[ourDeck deal]];
+            
         }
         
+        Character * tempWinner = [self declareWinner];
         // do
-        do {
-            if (currentPlayer == 3) {
-                // handle human bet
-                
-            }else {
-           // bet
-            Character * temp = [characterArray objectAtIndex:currentPlayer];
-            int neededAmount = currentBet - temp.currentBet;
-        
-            [temp requestBetWithMinimum:neededAmount];
-            }
-            currentPlayer++;
-            if(currentPlayer > 3){
-                currentPlayer = 0;
-            }
-        } while (![self everyoneHasSameBet]); 
-            
-        // determine winner sfijgs
-        
+//        do {
+//            if (currentPlayer == 5) {
+//                // handle human bet
+//                
+//            } else {
+//           // bet
+//            Character * temp = [characterArray objectAtIndex:currentPlayer];
+//            int neededAmount = currentBet - temp.currentBet;
+//            [temp requestBetWithMinimum:neededAmount];
+//                
+//            }
+//            currentPlayer++;
+//            if(currentPlayer > 3){
+//                currentPlayer = 0;
+//                
+//            }
+//        } while (![self everyoneHasSameBet]); 
+//        // determine winner
+//            
+        stillPlaying = NO;    
     }
+    
 }
--(BOOL)everyoneHasSameBet{
+
+-(BOOL)everyoneHasSameBet {
     return  NO;
+}
+
+-(Character *) declareWinner {
+    Character * winner  = [characterArray objectAtIndex:0];
+    [winner logThisCharacter];
+    for (int i = 1; i < [characterArray count]; i++) {
+        Character * temp = [characterArray objectAtIndex:i++];
+        [temp logThisCharacter];
+        if (temp.ourCard.value > winner.ourCard.value) {
+            winner = temp;
+        }
+    }
+    NSLog(@"Winner is %@", winner.name);
+    return winner;
+   
 }
 
 @end
