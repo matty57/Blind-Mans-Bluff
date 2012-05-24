@@ -109,7 +109,7 @@
 -(Character *) declareWinner {
     Character * winner  = [characterArray objectAtIndex:0];
     [winner logThisCharacter];
-    for (int i = 1; i < [characterArray count]; i++) {
+    for (int i = 1; i < [characterArray count]; i++) {   
         Character * temp = [characterArray objectAtIndex:i++];
         [temp logThisCharacter];
         if (temp.ourCard.value > winner.ourCard.value) {
