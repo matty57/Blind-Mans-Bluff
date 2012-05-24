@@ -41,4 +41,9 @@
 -(void)awardChips:(int) chipsAmount {
     chips = chips + chipsAmount; 
 }
+
+-(void) logThisCharacter {
+    NSLog(@"%@ has %d Chips and the following card", self.name, self.chips);
+    [ourCard logThisCard];
+}
 @end

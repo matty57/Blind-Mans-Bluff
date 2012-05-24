@@ -16,6 +16,10 @@
 @implementation StartViewController
 @synthesize numberOfChipsLabel;
 @synthesize playerScoreLabel;
+@synthesize player1ChipsLabel;
+@synthesize player2ChipsLabel;
+@synthesize player3ChipsLabel;
+@synthesize player4ChipsLabel;
 @synthesize numberOfChips;
 @synthesize Zolthar, Magezacks, Kalia, player;
 
@@ -39,6 +43,10 @@
 {
     //[self setNumberOfChipsLabel:nil];
     [self setPlayerScoreLabel:nil];
+    [self setPlayer1ChipsLabel:nil];
+    [self setPlayer2ChipsLabel:nil];
+    [self setPlayer3ChipsLabel:nil];
+    [self setPlayer4ChipsLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -92,12 +100,6 @@
     NSLog(@"Number of Chips = %i", numberOfChips);
     
 }
-
-
-
-
-
-
 
 
 @end

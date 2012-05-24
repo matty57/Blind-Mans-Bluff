@@ -17,6 +17,10 @@
 
 @property (strong, nonatomic) IBOutlet UILabel * numberOfChipsLabel;
 @property (strong, nonatomic) IBOutlet UILabel * playerScoreLabel;
+@property (strong, nonatomic) IBOutlet UILabel *player1ChipsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *player2ChipsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *player3ChipsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *player4ChipsLabel;
 
 @property int numberOfChips;
 

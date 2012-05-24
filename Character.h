@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSString * name;
 @property int chips;
 @property BOOL folded;
+
 @property (nonatomic, strong) Card * ourCard;
 @property int currentBet;
 -(id) initWithCharacterName:(NSString *) characterName
@@ -26,7 +27,7 @@
 
 //Add chips, play winning sound.
 -(void)awardChips:(int) chipsAmount;
-    
+-(void) logThisCharacter;
 //End of Code Created by Matthew
 
 @end

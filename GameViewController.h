@@ -27,6 +27,7 @@
 @property int currentBet;
 @property int currentPlayer;
 
+-(Character *) declareWinner;
 
 
 
