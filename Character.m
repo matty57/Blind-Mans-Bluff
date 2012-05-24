@@ -13,7 +13,7 @@
 @synthesize chips;
 @synthesize folded;
 @synthesize ourCard,currentBet;
-
+//Added this
 -(id) initWithCharacterName:(NSString *) characterName
                andWithChips:(int) characterChips {
     
