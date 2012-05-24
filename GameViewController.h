@@ -10,7 +10,14 @@
 #import "Character.h"
 #import "Deck.h"
 #import "Card.h"
+#import <AVFoundation/AVFoundation.h> //Code created by Geoff 
+
+
+//End of code created by Geoff
 @interface GameViewController : ViewController
+{
+    AVAudioPlayer * audioPlayer;
+}
 
 @property(strong,nonatomic)NSMutableArray *characterArray;
 @property (strong, nonatomic) Deck * ourDeck;

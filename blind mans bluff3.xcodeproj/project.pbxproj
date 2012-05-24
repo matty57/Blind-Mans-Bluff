@@ -36,6 +36,7 @@
 		0FBFC871153372710072853A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFC870153372710072853A /* AVFoundation.framework */; };
 		0FE4851D156BEE5E0025A453 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4851C156BEE5E0025A453 /* GameViewController.m */; };
 		0FF202E9152CA83B00AA7154 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF202E8152CA83B00AA7154 /* Character.m */; };
+		23455AAB156E851A0036D8BA /* gangsta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23455AAA156E851A0036D8BA /* gangsta.mp3 */; };
 		23860843154063E900429895 /* awesomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 23860842154063E900429895 /* awesomeButton.png */; };
 		2386084615406D9500429895 /* cards copy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2386084515406D9500429895 /* cards copy2.jpg */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		0FE4851C156BEE5E0025A453 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
 		0FF202E7152CA83B00AA7154 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../Character.h; sourceTree = "<group>"; };
 		0FF202E8152CA83B00AA7154 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../Character.m; sourceTree = "<group>"; };
+		23455AAA156E851A0036D8BA /* gangsta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta.mp3; sourceTree = "<group>"; };
 		23860842154063E900429895 /* awesomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = awesomeButton.png; path = "blind mans bluff3/awesomeButton.png"; sourceTree = "<group>"; };
 		2386084515406D9500429895 /* cards copy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cards copy2.jpg"; path = "blind mans bluff3/cards copy2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				2386084515406D9500429895 /* cards copy2.jpg */,
 				0F45E26D154B05B500B049D7 /* Ballin.png */,
 				0F45E26F154B05C100B049D7 /* BallinTits-1.png */,
+				23455AAA156E851A0036D8BA /* gangsta.mp3 */,
 				0FBFC870153372710072853A /* AVFoundation.framework */,
 				0F88F120150531D200590E27 /* blind mans bluff3 */,
 				0F88F119150531D200590E27 /* Frameworks */,
@@ -249,6 +252,7 @@
 				0F45E280154B24F100B049D7 /* clusterFuck1.png in Resources */,
 				0F45E282154B283500B049D7 /* cardssideways1.jpg in Resources */,
 				0F45E284154B283B00B049D7 /* cardssideways2.jpg in Resources */,
+				23455AAB156E851A0036D8BA /* gangsta.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

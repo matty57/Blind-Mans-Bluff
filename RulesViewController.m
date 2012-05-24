@@ -7,6 +7,7 @@
 //
 
 #import "RulesViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface RulesViewController ()
 

@@ -8,6 +8,7 @@
 
 #import "GameViewController.h"
 
+
 @interface GameViewController ()
 
 @end
@@ -46,6 +47,10 @@
     currentPlayer = 0;
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    // audio file for the gizname
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/gangsta.mp3", [[NSBundle mainBundle] resourcePath]]];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
 }
 
 - (void)viewDidUnload
